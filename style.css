@@ -8,7 +8,6 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  background-image: url(images/Background.jpg);
   --font-color: #f7f3f3;
   --btn-bg-color: #000000;
   --accent-color: #51049e;
@@ -28,6 +27,7 @@ body {
   display: flex;
   flex-flow: column;
   height: 100vh;
+  background-image: url(images/Background.jpg);
   color: var(--font-color);
   font-family: var(--font-primary);
 }
@@ -36,18 +36,22 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
+
 }
 
 /* HEADER */
 
 header {
   box-shadow: var(--header-shadow);
+  background-color: #47049e85;
+
 }
 
 header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .menu {
