@@ -162,6 +162,7 @@ section {
 @media screen and (max-width: 768px) {
   .menu {
     gap: 1rem;
+    align-items: center;
   }
   .wallet-btn {
     margin-left: 0;
