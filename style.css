@@ -26,14 +26,14 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 100vh;
-  background-image: url(images/Background.jpg);
+  background-image: url(/images/Background.jpg);
   color: var(--font-color);
   font-family: var(--font-primary);
+ 
 }
 
 .container {
-  width: 100%;
+  display: flex;
   margin: 0 auto;
   padding: 1rem 2rem;
 
@@ -44,14 +44,12 @@ body {
 header {
   box-shadow: var(--header-shadow);
   background-color: #47049e85;
-
 }
 
 header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .menu {
@@ -166,7 +164,7 @@ section {
   }
   .wallet-btn {
     margin-left: 0;
-    padding: 1rem;
+    padding: 16px;
     max-width: 8rem;
   }
   .countdown h1 {
